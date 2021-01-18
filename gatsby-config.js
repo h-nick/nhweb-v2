@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
-}
+  /* eslint-disable */
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: ['Exo 2\:500,900'],
+        display: 'swap',
+      },
+    },
+  ],
+};
